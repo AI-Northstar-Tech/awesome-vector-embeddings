@@ -10,7 +10,28 @@ def fetch_title(url):
     else:
         return 'Failed to Retrieve'
 
-url = 'https://www.google.com'
-title = fetch_title(url)
-markdown_link = f'[{title}]({url})'
-print(markdown_link)
+# read file ../README.md
+with open('../README.md', 'r') as f:
+    lines = f.readlines()
+    for line in lines:
+        if line.startswith('1. '):
+            # parse url
+            if '](' in line:
+                url = line.split('](')[1].split(')')[0]
+            else:
+                url = line.split('1. ')[1].strip()
+            # fetch title
+            title = fetch_title(url)
+            # replace title
+            new_line = f'1. [{title}]({url})\n'
+            # print(new_line)
+            print(new_line, end='')
+        else:
+            print(line, end='')
+# print(fetch_title('https://www.google.com'))
+
+        
+# url = 'https://www.google.com'
+# title = fetch_title(url)
+# markdown_link = f'[{title}]({url})'
+# print(markdown_link)
