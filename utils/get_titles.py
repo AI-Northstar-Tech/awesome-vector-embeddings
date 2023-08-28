@@ -9,7 +9,7 @@ def fetch_title(url):
         return title
     else:
         return 'Failed to Retrieve'
-
+new_file = ''
 # read file ../README.md
 with open('../README.md', 'r') as f:
     lines = f.readlines()
@@ -23,11 +23,16 @@ with open('../README.md', 'r') as f:
             # fetch title
             title = fetch_title(url)
             # replace title
-            new_line = f'1. [{title}]({url})\n'
+            new_line = f'1. [{title} {url}: ]({url})\n'
             # print(new_line)
             print(new_line, end='')
         else:
+            new_line = line
             print(line, end='')
+        new_file += new_line
+# write file ../README.md
+with open('../README.md', 'w') as f:
+    f.write(new_file)
 # print(fetch_title('https://www.google.com'))
 
         
