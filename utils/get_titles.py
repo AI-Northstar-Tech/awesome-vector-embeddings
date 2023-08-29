@@ -23,7 +23,7 @@ with open('../README.md', 'r') as f:
             # fetch title
             title = fetch_title(url)
             # replace title
-            new_line = f'1. [{title} {url}: ]({url})\n'
+            new_line = f'1. [{title} : {url}]({url})\n'
             # print(new_line)
             print(new_line, end='')
         else:
