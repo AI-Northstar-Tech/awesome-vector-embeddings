@@ -16,6 +16,7 @@ Collection of resources for embeddings
 1. [Embeddings: GloVe, Crawl, etc. | torch cached  | Kaggle : https://www.kaggle.com/datasets/leighplt/embeddings-glove-crawl-torch-cached](https://www.kaggle.com/datasets/leighplt/embeddings-glove-crawl-torch-cached)
 1. [fasttext embeddings | Kaggle : https://www.kaggle.com/datasets/abhishek/fasttext](https://www.kaggle.com/datasets/abhishek/fasttext)
 1. [OpenAI Embeddings for New York Times Articles | Kaggle : https://www.kaggle.com/datasets/dilwong/openai-embeddings-for-new-york-times-articles?resource=download](https://www.kaggle.com/datasets/dilwong/openai-embeddings-for-new-york-times-articles?resource=download)
+1. [GitHub - erikbern/ann-benchmarks: Benchmarks of approximate nearest neighbor libraries in Python : https://github.com/erikbern/ann-benchmarks/tree/main#data-sets](https://github.com/erikbern/ann-benchmarks/tree/main#data-sets)
 
 ## Related efforts
 
