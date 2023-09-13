@@ -2,7 +2,7 @@
 
 Collection of resources for embeddings
 
-## Embeddings dumps
+## Vector Datasets / Embeddings dumps
 
 1. [khellific/anidb-series-embeddings at main : https://huggingface.co/datasets/khellific/anidb-series-embeddings/tree/main](https://huggingface.co/datasets/khellific/anidb-series-embeddings/tree/main)
 1. [Hacker News OpenAI Embeddings | Kaggle : https://www.kaggle.com/datasets/julien040/hacker-news-openai-embeddings](https://www.kaggle.com/datasets/julien040/hacker-news-openai-embeddings)
